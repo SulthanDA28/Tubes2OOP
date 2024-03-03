@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.kosong{
+}
+
+.title{
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-font-weight: bold;
+    -fx-font-size: 45px;
+    -fx-width: auto;
+}
+
+.time{
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-font-weight: bold;
+    -fx-font-size: 100px;
+    -fx-width: auto;
+}
+
+.sub-title{
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-font-size: 15px;
+}
+
+.sub-title-bold{
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-font-weight: bold;
+    -fx-font-size: 17px;
+}
+
+.button-kecil {
+  -fx-font-family: 'Poppins', sans-serif;
+  -fx-background-color: #37DC26;
+  -fx-text-fill : white;
+  -fx-background-radius: 30px;
+  -fx-border-color: #2B2C34;
+  -fx-border-radius: 30px;
+  -fx-border-width: 2px;
+  -fx-text-fill: #FFFFFE;
+  -fx-padding : 5px 15px;
+  -fx-font-size: 17px;
+  -fx-alignment: center-left;
+  -fx-graphic-text-gap: 10px;
+}
+
+.button-kecil:hover {
+  -fx-background-color: #86E74C;
+}
+
+.button-kecil-red {
+  -fx-font-family: 'Poppins', sans-serif;
+  -fx-background-color: #FF0000;
+  -fx-text-fill : white;
+  -fx-background-radius: 30px;
+  -fx-border-color: #2B2C34;
+  -fx-border-radius: 30px;
+  -fx-border-width: 2px;
+  -fx-text-fill: #FFFFFE;
+  -fx-padding : 5px 15px;
+  -fx-font-size: 17px;
+  -fx-alignment: center-left;
+  -fx-graphic-text-gap: 10px;
+}
+
+.button-kecil-red:hover {
+  -fx-background-color: #FB7F7F;
+}
+
+.input-field {
+    -fx-padding: 5px 15px;
+    -fx-background-color: #FFFFFF;
+    -fx-border-width: 2px;
+    -fx-border-color: #37DC26;
+    -fx-border-radius: 30px;
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-font-size: 14px;
+    -fx-text-fill: #37DC26;
+    -fx-pref-width: 450px;
+}
+
+
+.input-field:focused {
+    -fx-border-color: #37DC26;
+}
+
+.input-field:disabled {
+    -fx-opacity: 0.5;
+    -fx-background-color: #CCCCCC;
+    -fx-border-color: #999999;
+}
+
+.input-field:disabled:focused {
+    -fx-border-color: #999999;
+}
+
+.combo-box {
+    -fx-padding: 5px 15px;
+    -fx-background-color: #FFFFFF;
+    -fx-border-width: 2px;
+    -fx-arrow-color: #37DC26;
+    -fx-border-color: #37DC26;
+    -fx-border-radius: 30px;
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-font-size: 14px;
+    -fx-text-fill: #37DC26;
+}
+
+.combo-box .arrow {
+    -fx-background-color: #37DC26;
+}
+
+.combo-box .list-cell{
+    -fx-border-radius: 30px;
+}
+
+.combo-box .list-cell:hover {
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #86E74C;
+}
+
+.combo-box .list-cell:selected {
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #37DC26;
+}
+
+/* Style for ScrollPane */
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-border-width: 2px;
+    -fx-padding: 10px;
+    -fx-width: 100px;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+/* Style for Labels inside VBox */
+.vbox > .label {
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+    -fx-text-fill: #555555;
+    -fx-padding: 5px;
+    -fx-border-color: #000000;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-background-color: #37DC26;
+}
+
+
+
+
+
+
+
+
+
